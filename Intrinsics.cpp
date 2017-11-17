@@ -1,5 +1,8 @@
+// Source: https://insidehpc.com/2017/04/intel-xeon-phi-processor-intel-avx-512-programming-nutshell/
+// James Reinders
+
 #include <stdio.h>
- #include "immintrin.h"
+#include "immintrin.h"
 
 void print(char *name, float *a, int num)
 
